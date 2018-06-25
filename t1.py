@@ -5,5 +5,7 @@ from jsonfield import JSONField
 class Test(models.Model):
     """
     Represents a Test
+    ...
+    """    
     description = models.TextField('Test')
 
